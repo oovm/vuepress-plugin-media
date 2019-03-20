@@ -1,26 +1,27 @@
-# VuTeX
+Vuepress Plugins For Media
 
-```bash
+```sh
 yarn install && yarn start
 ```
 
-| Plugin           | Remark                            |
-| ---------------- | --------------------------------- |
-| medialink-tracer | Find the real url of the media    |
-| vuepress-aplayer | Support playing music on Vuepress |
-| vuepress-dplayer | Support playing video on Vuepress |
+| Plugin           | Remark                            | Install                          | Document |
+| ---------------- | --------------------------------- | -------------------------------- | -------- |
+| medialink-tracer | Find the real url of the media    | for developer only               | none     |
+| vuepress-aplayer | Support playing music on Vuepress | yarn add vuepress-plugin-aplayer | link     |
+| vuepress-dplayer | Support playing video on Vuepress | yarn add vuepress-plugin-dplayer | link     |
 
 ## Audio Example
-
+```yaml
 %%% audio
 name: The Party We Have Never Seen
 url: https://cdn.moefe.org/music/mp3/thepartywehaveneverseen.mp3
 cover: https://p1.music.126.net/IwclpJu4gaqhSZrKunEFWg==/3297435379408525.jpg?param=300y300
 lrc: https://cdn.moefe.org/music/lrc/thepartywehaveneverseen.lrc
 %%%
+```yaml
 
 ## Video Example
-
+```yaml
 %%% video
 video:
   url: https://xn.tn/?/%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/test.mp4
@@ -37,3 +38,4 @@ danmaku:
   bottom: '15%'
   unlimited: true
 %%%
+```
