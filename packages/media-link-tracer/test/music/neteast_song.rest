@@ -1,0 +1,23 @@
+//https://music.163.com/#/song?id=722013
+
+@song_id=722013
+
+
+
+
+### Get MP3[do NOT run this]
+GET https://music.163.com/song/media/outer/url?id={{song_id}}.mp3
+
+### Get Lyric
+GET http://music.163.com/api/song/media?id={{song_id}}
+
+### Get Lyric Full
+POST http://music.163.com/api/song/lyric?id={{song_id}}&lv=1&kv=1&tv=-1
+
+### Get Detail
+GET http://music.163.com/api/song/detail/?ids=[{{song_id}}]
+
+# [blurPicUrl] seems like permalink
+
+###
+GET http://music.163.com/api/album/{{song_id}}

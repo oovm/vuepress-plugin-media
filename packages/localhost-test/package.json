@@ -4,11 +4,13 @@
     "private": true,
     "scripts": {
         "dev": "vuepress dev .",
-        "build": "vuepress build .",
-        "start": "yarn dev && start http://localhost:8080"
+        "build": "vuepress build . -dest ./dist",
+        "start": "yarn dev && start http://localhost:8080/zh/"
+    },
+    "dependencies": {
+        "vuepress-plugin-aplayer": "0.1.0"
     },
     "devDependencies": {
-        "@vutex/vuepress-theme-vutex": "^0.1.0",
         "vuepress": "^1.0.0-alpha.30"
     }
 }

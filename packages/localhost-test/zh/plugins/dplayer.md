@@ -1,7 +1,5 @@
 ---
-title: Video Demo
-type: post
-tag: [demo, video]
+sidebarDepth: 3
 ---
 
 

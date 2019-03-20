@@ -1,7 +1,5 @@
 ---
-title: Audio Demo
-type: post
-tag: [demo, music]
+sidebarDepth: 3
 ---
 
 

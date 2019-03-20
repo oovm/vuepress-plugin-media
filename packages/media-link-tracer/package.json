@@ -5,5 +5,10 @@
     "author": "shigma <1700011071@pku.edu.cn>",
     "license": "MIT",
     "main": "dist/index.js",
-    "dependencies": {}
+    "dependencies": {
+        "crypto": "^1.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^11.11.4"
+    }
 }
