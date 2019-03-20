@@ -1,0 +1,34 @@
+[
+    {
+        "name": "aplayer",
+        "displayName": "APlayer",
+        "path": "./plugins/aplayer.md",
+        "npm": "vuepress-plugin-aplayer",
+        "github": "vuepress/vuepress-plugin-aplayer",
+        "icon": ":musical_note:",
+        "introduce": {
+            "zh": "在 VuePress 中播放音乐",
+            "en": "Playing music in Vuepress"
+        },
+        "description": {
+            "zh": "`{{npm}}` 是一个用于在 VuePress 中播放音乐的插件。",
+            "en": "`{{npm}}` is a plugin used to playing music in VuePress."
+        }
+    },
+    {
+        "name": "dplayer",
+        "displayName": "DPlayer",
+        "path": "./plugins/dplayer.md",
+        "npm": "vuepress-plugin-dplayer",
+        "github": "vuepress/vuepress-plugin-dplayer",
+        "icon": ":movie_camera:",
+        "introduce": {
+            "zh": "在 VuePress 中播放视频",
+            "en": "Playing video in Vuepress"
+        },
+        "description": {
+            "zh": "`{{npm}}` 是一个用于在 VuePress 中播放视频的插件。",
+            "en": "`{{npm}}` is a plugin used to playing video in VuePress."
+        }
+    }
+]

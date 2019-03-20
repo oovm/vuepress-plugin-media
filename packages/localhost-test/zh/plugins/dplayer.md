@@ -5,6 +5,28 @@ sidebarDepth: 3
 
 视频播放支持, Powered by DPlayer!
 
+# vuepress-plugin-dplayer <GitHubLink repo="vuepress/vuepress-plugin-dplayer"/>
+
+`vuepress-plugin-dplayer` 是一个用于注册 markdown 容器的 VuePress 插件。
+
+## 用法
+
+### 全局安装
+
+```bash
+npm install -g vuepress-plugin-container
+# 或者
+yarn global add vuepress-plugin-container
+```
+
+### 局部安装
+
+```bash
+npm install vuepress-plugin-container
+# 或者
+yarn add vuepress-plugin-container
+```
+
 %%% video
 autoplay: false
 theme: '#FADFA3'
