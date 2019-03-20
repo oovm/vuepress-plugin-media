@@ -1,0 +1,8 @@
+{
+    "references": [
+      { "path": "./packages/media-link-tracer" },
+      { "path": "./packages/vuepress-plugin-aplayer" },
+      { "path": "./packages/vuepress-plugin-dplayer" },
+    ],
+    "files": []
+  }

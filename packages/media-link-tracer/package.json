@@ -1,0 +1,9 @@
+{
+    "name": "@vutex/media-link-tracer",
+    "version": "0.1.0",
+    "description": "Find the real url of the media",
+    "author": "shigma <1700011071@pku.edu.cn>",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "dependencies": {}
+}

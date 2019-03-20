@@ -1,0 +1,11 @@
+{
+    "name": "vuepress-plugin-aplayer",
+    "version": "0.1.0",
+    "description": "Support playing video on Vuepress",
+    "author": "shigma <1700011071@pku.edu.cn>",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "dependencies": {
+        "vue-dplayer": "^0.0.10"
+    }
+}
